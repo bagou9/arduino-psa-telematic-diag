@@ -12,7 +12,7 @@
 
 #define CS_PIN_CAN0 10
 #define SERIAL_SPEED 115200
-#define CAN_SPEED CAN_500KBPS // Entertainment CAN bus - High Speed
+#define CAN_SPEED CAN_125KBPS // Entertainment CAN bus - Low speed
 #define CAN_FREQ MCP_16MHZ // Switch to 8MHZ if you have a 8Mhz module
 #define CAN_EMIT_ID 0x764 // Telematic Diag Frame
 #define CAN_RECV_ID 0x664 // Telematic Diag Frame
